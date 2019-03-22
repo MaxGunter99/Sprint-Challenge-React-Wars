@@ -7,7 +7,7 @@ Without react, every time you have to update an object, you would have to change
 There is a main object, the brain, and it branches off into other sections, like a cascading waterfall of javascript.
 
 1.  Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
-
+class/stateful components can be used sort of like classes, functional/presentational components can be manipulated/sent to different places.
 
 
 1.  Describe state.
