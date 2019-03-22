@@ -3,7 +3,7 @@ import React from 'react';
 function CharacterSetup(props) {
     return (
       <div className="character-card">
-        <h3>{props.CharacterSetupProp.name}</h3>
+        <h1>{props.CharacterSetupProp.name}</h1>
         <p>
           <strong>Height:</strong> {props.CharacterSetupProp.height}
         </p>
@@ -26,8 +26,19 @@ function CharacterSetup(props) {
           <strong>Homeworld:</strong><img src={props.CharacterSetupProp.homeworld} alt={props.CharacterSetupProp.name} />
         </p>
         <p>
-          <strong>Films:</strong> {props.CharacterSetupProp.species}
+          <strong>Species:</strong> {props.CharacterSetupProp.species}
         </p>
+        <p>
+          <strong>Created:</strong> {props.CharacterSetupProp.created}
+        </p>
+        <p>
+          <strong>Edited:</strong> {props.CharacterSetupProp.edited}
+        </p>
+        <p>
+          <strong>URL:</strong> {props.CharacterSetupProp.url}
+        </p>
+        
+
       </div>
   
 
